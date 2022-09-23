@@ -10,6 +10,7 @@ vim.opt.autoindent = true
 
 vim.opt.ruler = true
 vim.opt.number = true
+vim.opt.relativenumber = true
 vim.opt.wildmenu = true
 vim.opt.showcmd = true
 
@@ -20,7 +21,3 @@ vim.opt.tabstop = 4
 vim.opt.smarttab = true
 
 vim.opt.clipboard = "unnamed"
-
-
-
-
