@@ -43,3 +43,27 @@ nvim_lsp.rust_analyzer.setup({
         },
     }
 })
+
+
+nvim_lsp.pylsp.setup({
+    on_attach = on_attach,
+    settings = {
+        pylsp = {
+            plugins = {
+                pycodestlye = {
+                    enabled = false
+                },
+                mccabe = {
+                    enabled = false
+                },
+                pyflakes = {
+                    enabled = false
+                },
+                flake8 = {
+                    enabled = true
+                },
+            },
+            configurationSources = {"flake8"}
+        },
+    }
+})
