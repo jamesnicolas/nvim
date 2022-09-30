@@ -22,7 +22,19 @@ return require('packer').startup(function(use)
   use 'nvim-telescope/telescope.nvim'
   use 'johmsalas/text-case.nvim'
   use 'hashivim/vim-terraform'
+  use 'folke/tokyonight.nvim'
+
+  -- Japanese Input Plugins
+
+  use 'vim-denops/denops.vim'
+  use 'vim-denops/denops-helloworld.vim'
+  use 'vim-skk/skkeleton'
 
 end)
+
+
+
+
+
 
 
