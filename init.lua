@@ -8,4 +8,4 @@ require('lualine').setup({
 local textcase = require('textcase')
 textcase.setup()
 
-vim.cmd('source skk.vim')
+vim.cmd('source ~/.config/nvim/skk.vim')
